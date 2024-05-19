@@ -13,7 +13,7 @@ Flow
 
 ## 🔗 Links
 
-FrontEnd deployment ->[https://cropchain-ebc27.web.app/ ](https://cropchain-ebc27.web.app/)
+FrontEnd deployment ->[https://adhitya-vardhan.github.io/CropChain-UI/](https://adhitya-vardhan.github.io/CropChain-UI/)
 
 
 SmartContract->[https://github.com/Adhitya-Vardhan/CropChain ](https://github.com/Adhitya-Vardhan/CropChain)
