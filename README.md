@@ -1,70 +1,69 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CROP-CHAIN
 
-## Available Scripts
+Decentralised Pland Disesase detection and solution verification system.This repo has the front-end code of the project. This is a research project. Technologies include Hardhat, Ipfs, web3 , moralis and Ethereum smart contract development using solidity.This uses PROOF OF AUTHORITY as its consensus mechanism.This is a permissioned chain so the admin aka KvkManager is the who can give access to the chain, who the deployer of the smart contract.
 
-In the project directory, you can run:
+Actors Include KvkManager, Farmers and Scientist. The manager includes the farmers and Scientist to the chain. Farmers upload the images. which are first viewed by the Ai and are then reviewed by the Scientists and at last all the verifiers vote the soluions provided.By this way they come to a decision of correct solution for a given plant diesase.
 
-### `npm start`
+# PROJECT ARCHITECTURE
+![Screenshot from 2024-03-31 12-30-30](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/3aa45eef-2468-437c-9a37-dd9f2b3e061c)
+Flow
+![op](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/6af22342-42a9-40ee-b766-1f4e4974353e)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔗 Links
 
-### `npm test`
+FrontEnd deployment ->[https://cropchain-ebc27.web.app/ ](https://cropchain-ebc27.web.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+SmartContract->[https://github.com/Adhitya-Vardhan/CropChain ](https://github.com/Adhitya-Vardhan/CropChain)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Etherscan Testnet->[https://sepolia.etherscan.io/tx/0x040fea4b8a199911d5639d042280f57f3faec8baf3cddd6150cc3dd8c104da50](https://sepolia.etherscan.io/tx/0x040fea4b8a199911d5639d042280f57f3faec8baf3cddd6150cc3dd8c104da50)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## UI
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Home page: 
+![Screenshot from 2024-05-19 15-16-08](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/345bf3eb-1fe1-4921-8b52-c8f329aa1f6c)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Farmer Page:
+![Screenshot from 2024-05-19 15-15-47](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/7dd8d594-b949-40c5-a379-167235eb5b24)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+KvkManager Page:
+![Screenshot from 2024-05-19 15-14-43](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/a9b6f42e-39ab-47ec-bab8-60d77b714037)
 
-## Learn More
+Other Pages:
+![Screenshot from 2024-05-19 15-17-16](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/73c2d314-f08d-4533-b92e-6100dd727d20)
+![Screenshot from 2024-05-19 15-17-16](https://github.com/Adhitya-Vardhan/CropChain-UI/assets/116478666/3a395bf6-a770-45d2-9585-0307b87b0b32)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Private keys
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+create a .env fiel and intialise these variable. Generate your pinata API key after goint to Pinata website
 
-### Code Splitting
+```bash
+REACT_APP_DEPLOYER -> address of the deployer
+REACT_APP_PINATA_API_KEY -> secret api key
+REACT_APP_PINATA_SECRET_API_KEY -> secret Api key of Pinata
+REACT_APP_CONTRACT -> where the contract is deployed -> Addresss
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
 
-### Analyzing the Bundle Size
+Locate to the root folder of the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To install all the dependencies
 
-### Making a Progressive Web App
+```bash
+  npm i
+```
+To start the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash 
+  npm start
+``` 
+## License
 
-### Advanced Configuration
+[MIT](https://choosealicense.com/licenses/mit/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
