@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CropChain-UI/static/css/main.7e1ccc15.css",
-    "main.js": "/CropChain-UI/static/js/main.249c2926.js",
+    "main.js": "/CropChain-UI/static/js/main.d92a775d.js",
     "static/js/53.0adc5007.chunk.js": "/CropChain-UI/static/js/53.0adc5007.chunk.js",
     "static/js/52.5764edaa.chunk.js": "/CropChain-UI/static/js/52.5764edaa.chunk.js",
     "static/js/781.db87a49d.chunk.js": "/CropChain-UI/static/js/781.db87a49d.chunk.js",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.7e1ccc15.css",
-    "static/js/main.249c2926.js"
+    "static/js/main.d92a775d.js"
   ]
 }
